@@ -4,7 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_first1"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"   />
+
+
+    <EditText
+        android:id="@+id/ed_text"
+        android:hint="тест"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <Switch
+        android:id="@+id/s_switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Включить" />
+
+
+    <CheckBox
+        android:id="@+id/cb_check"
+        android:text="Выбрать"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ToggleButton
+        android:id="@+id/tg_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 
